@@ -91,15 +91,3 @@ function printCompMove(){
 
 
 
-std_details = {
-    name:"Tanzil",
-    age:23,
-    sub_details: {
-        firstnam:"Shaik",
-        gender:"Male",
-    },
-    rolno:33,
-    function: function newfun(){
-        console.log("This is a fucnction inside an object");
-    }
-};
