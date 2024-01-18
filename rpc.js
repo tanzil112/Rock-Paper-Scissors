@@ -103,14 +103,3 @@ std_details = {
         console.log("This is a fucnction inside an object");
     }
 };
-
-//converting object to json string
-console.log(JSON.stringify(std_details));
-
-
-//converting json string to object
-const jsonstring=JSON.stringify(std_details);
-
-console.log(JSON.parse(jsonstring));
-
-// std_details.function();
